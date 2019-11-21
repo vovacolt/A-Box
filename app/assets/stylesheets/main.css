@@ -3,13 +3,17 @@
      /* Desktop - 1 */
  #n2_3 {
      position: relative;
-     width: 1440px;
-     height: 1024px;
+     width: 100vh;
+     height: 100vh;
+
+     position: fixed;
+     overflow:hidden;
 
      margin: 0;
 
      background: #000000;
  }
+
 
 /* Rectangle 1 */
 #n2_4 {
@@ -19,26 +23,28 @@
 /* Rectangle 3 */
 #n16_28 {
     position: absolute;
-    background: radial-gradient(50% 50% at 50% 50%, #0D6885 0%, #064559 25.52%, #000000 100%);
-    /*background: radial-gradient(50% 50% at 50% 50%, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%);*/
-    /*background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
     width: 100%;
-    height: 100vh;
-    left: 0px;
-    top: 0px;
+    height: 150vh;
+    left: 0;
+    top: -20vh;
+
+    background: radial-gradient(50% 50% at 50% 50%, #0D6885 0%, #064559 30.21%, #000000 100%);
+
+    position: fixed;
+    overflow:hidden;
 }
 
 /* Rectangle 2 */
 #n2_7 {
-    position: absolute;
+
     transform: rotate(-45deg);
     background: rgb(0, 0, 0);
     position: absolute;
-    left: 507.868px;
-    width: 424.264px;
-    top: 299.868px;
-    height: 424.264px;
+    margin: -150px 0 0 -150px;
+    left: 50%;
+    width: 300px;
+    top: 50%;
+    height: 300px;
 }
 
 /* Логин */
@@ -110,15 +116,4 @@
     height: 1039px;
     left: 570px;
     top: 0px;
-}
-
-/* a-box-sample-2 2 */
-#n68_13 {
-    background-image: url("https://s3-alpha-sig.figma.com/img/45e3/4168/02ccdb945a745826c9f6cf5a36d98492?Expires=1575244800&Signature=JuDJaIUhjr5FWq~RP8ElQTQ14rsGwRMgjKRkRG27kypNoVoz68HRIrY3sykpPRpKY3wbqNIG4btuBEsAQwgntK0XIH6-jO9l4S0oQANGKgDF-4j1Dk3EaQYwUh08JiOTxep~5v0~~QORBh-6cofphAHjj5BN5ANWB6lrtzoQpaMB2bq8tCz3n9okrkFqXJ2WhCysFcB-LXqHT8RxpAzQ5FQ6Jba2whqMYcnmt6MUudpfLIB~Dqfh0HtFQZpN6k8UsTiDyNKNMRbbCZM9zCgKlxxcPmVlJ84Ms5lnn5H0o6NaO9Kc8iOUvpTL07khJuZn-HTuaKgRAx58IUZ8tkRK4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    left: 570px;
-    width: 1385px;
-    height: 1039px;
 }
