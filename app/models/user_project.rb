@@ -1,3 +1,3 @@
-class User_Project < ApplicationRecord
+class UserProject < ApplicationRecord
   validates :user_id, :project_id, presence: true
 end
