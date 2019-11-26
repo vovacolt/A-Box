@@ -15,11 +15,6 @@
  }
 
 
-/* Rectangle 1 */
-#n2_4 {
-
-}
-
 /* Rectangle 3 */
 #n16_28 {
     position: absolute;
@@ -40,69 +35,40 @@
     transform: rotate(-45deg);
     background: rgb(0, 0, 0);
     position: absolute;
-    margin: -150px 0 0 -150px;
+    margin: -15ch 0 0 -15vh;
     left: 50%;
-    width: 300px;
+    width: 30vh;
     top: 50%;
-    height: 300px;
-}
-
-/* Логин */
-#n2_37 {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    color: rgb(124, 119, 119);
-    vertical-align: middle;
-    justify-content: flex-start;
-    width: 280px;
-    line-height: 23.4375px;
-    height: 34px;
-    left: 570px;
-    top: 473px;
-}
-
-/* Пароль */
-#n2_38 {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    color: rgb(124, 119, 119);
-    vertical-align: middle;
-    justify-content: flex-start;
-    width: 280px;
-    line-height: 23.4375px;
-    height: 37px;
-    left: 570px;
-    top: 566px;
+    height: 30vh;
 }
 
 /* Line 1 */
 #n2_8 {
+
     position: absolute;
-    left: 624px;
-    width: 96px;
-    top: 356px;
-    height: 253px;
+    width: 270.6px;
+    height: 0px;
+    left: 50%;
+    top: 50%;
+
+    margin: -110px 0 0 -110px;
+
+    border: 5px solid #FFFFFF;
+    transform: rotate(155.78deg);
 }
 
 /* Line 2 */
 #n2_9 {
     position: absolute;
-    left: 720px;
-    width: 93px;
-    top: 356px;
-    height: 253px;
-}
+    width: 269.55px;
+    height: 0px;
+    left: 50%;
+    top: 50%;
 
-/* Union */
-#n16_24 {
-    left: 624px;
-    width: 193.693px;
-    top: 354.275px;
-    height: 256.499px;
+    margin: -43px 0 0 -43px;
+
+    border: 5px solid #FFFFFF;
+    transform: rotate(114.82deg);
 }
 
 /* a-box-sample-2 1 */
@@ -112,8 +78,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 1385px;
-    height: 1039px;
-    left: 570px;
-    top: 0px;
+    width: 140vh;
+    height: 100vh;
+    left: 50%;
+    top: 0;
+
+    position: fixed;
+    overflow:hidden;
 }
