@@ -1,7 +1,7 @@
 <!-- ———————      CSS      ——————— -->
 
      /* Desktop - 1 */
- #n2_3 {
+ #frame {
      position: relative;
      width: 100vh;
      height: 100vh;
@@ -16,7 +16,7 @@
 
 
 /* Rectangle 3 */
-#n16_28 {
+#gradient_front {
     position: absolute;
     width: 100%;
     height: 150vh;
@@ -30,7 +30,7 @@
 }
 
 /* Rectangle 2 */
-#n2_7 {
+#main_black_box_45 {
 
     transform: rotate(-45deg);
     background: rgb(0, 0, 0);
@@ -42,8 +42,22 @@
     height: 30vh;
 }
 
+/* Rectangle 2 */
+#main_black_box_0 {
+
+    display: flex;
+
+    background: rgb(0, 0, 0);
+    position: absolute;
+    margin: -15ch 0 0 -15vh;
+    left: 50%;
+    width: 30vh;
+    top: 50%;
+    height: 30vh;
+}
+
 /* Line 1 */
-#n2_8 {
+#A-left {
 
     position: absolute;
     width: 270.6px;
@@ -58,7 +72,7 @@
 }
 
 /* Line 2 */
-#n2_9 {
+#A-right {
     position: absolute;
     width: 269.55px;
     height: 0px;
@@ -71,8 +85,18 @@
     transform: rotate(114.82deg);
 }
 
+#A-horizontal {
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 70px;
+    top: 50%;
+
+    border: 1px solid #FFFFFF;
+}
+
 /* a-box-sample-2 1 */
-#n6_3 {
+#maiden_1 {
     position: absolute;
     background-image: url("https://s3-alpha-sig.figma.com/img/45e3/4168/02ccdb945a745826c9f6cf5a36d98492?Expires=1575244800&Signature=JuDJaIUhjr5FWq~RP8ElQTQ14rsGwRMgjKRkRG27kypNoVoz68HRIrY3sykpPRpKY3wbqNIG4btuBEsAQwgntK0XIH6-jO9l4S0oQANGKgDF-4j1Dk3EaQYwUh08JiOTxep~5v0~~QORBh-6cofphAHjj5BN5ANWB6lrtzoQpaMB2bq8tCz3n9okrkFqXJ2WhCysFcB-LXqHT8RxpAzQ5FQ6Jba2whqMYcnmt6MUudpfLIB~Dqfh0HtFQZpN6k8UsTiDyNKNMRbbCZM9zCgKlxxcPmVlJ84Ms5lnn5H0o6NaO9Kc8iOUvpTL07khJuZn-HTuaKgRAx58IUZ8tkRK4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     background-size: cover;
@@ -85,4 +109,80 @@
 
     position: fixed;
     overflow:hidden;
+}
+
+/* Впервые */
+#firstly {
+    position: absolute;
+    width: 10.7%;
+    height: 3.4%;
+    left: 69px;
+    top: 45%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 5px;
+
+    color: #7C7878;
+}
+
+/* Вновь */
+#again {
+    position: absolute;
+    width: 7.8%;
+    height: 2.1%;
+    left: 83px;
+    top: 62%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 5px;
+
+    color: #7C7878;
+}
+
+/* Union */
+#union {
+    position: absolute;
+    width: 46px;
+    height: 56px;
+    left: 50%;
+    top: 0px;
+
+    margin: 0 0 0 -23px;
+
+    background: #7C7878;
+}
+
+/* Я */
+#I {
+    position: absolute;
+    width: 69px;
+    height: 99px;
+    left: 0px;
+    top: 50%;
+
+    margin: -48px 0 0 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-indent: 5px;
+
+    color: #7C7878;
 }
