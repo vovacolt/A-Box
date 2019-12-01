@@ -116,10 +116,10 @@
 
 /* Впервые */
 #firstly {
-
     position: absolute;
-    width: 10.7vw;
+
     height: 3.4vh;
+
     left: 50%;
     top: 13.3vh;
 
@@ -132,7 +132,8 @@
     align-items: flex-end;
     text-indent: 0.5vh;
 
-    color: #7C7878;
+    -webkit-text-fill-color: #7C7878;
+    text-decoration: none; //убрать подчеркивание ссылки
 }
 
 /* Вновь */
@@ -190,5 +191,27 @@
     text-indent: 0.5vh;
 
     color: #7C7878;
+
+}
+
+#o {
+    position: absolute;
+    width: 10.7vw;
+    height: 3.4vh;
+
+    left: 50%;
+    top: 12.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4vh;
+    line-height: 2.8vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    -webkit-text-fill-color: #7C7878;
+    text-decoration: none; //убрать подчеркивание ссылки
 
 }

@@ -266,6 +266,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise
+  erubi
   jbuilder (~> 2.7)
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
