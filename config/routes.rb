@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   root to: 'home#index'
   get '/home', to: 'home#index'
   get '/authorisation', to: 'home#authorisation'
+  get '/signin', to: 'home#signin'
+
   resource  :home
   resources :projects, only: :index
 end

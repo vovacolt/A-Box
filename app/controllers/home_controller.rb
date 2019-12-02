@@ -6,4 +6,8 @@ class HomeController < ApplicationController
   def authorisation
 
   end
+
+  def signin
+
+  end
 end
