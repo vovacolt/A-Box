@@ -1,0 +1,293 @@
+<!-- ———————      CSS      ——————— -->
+
+     /* Desktop - 1 */
+ #frame {
+     position: relative;
+     width: 100vh;
+     height: 100vh;
+
+     position: fixed;
+     overflow:hidden;
+
+     margin: 0;
+
+     background: #000000;
+ }
+
+
+/* Rectangle 3 */
+#gradient_front {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    left: 0;
+    top: -20vh;
+
+    background: radial-gradient(50% 50% at 50% 50%, #0D6885 0%, #064559 30.21%, #000000 100%);
+
+    position: fixed;
+    overflow:hidden;
+}
+
+/* Rectangle 3 */
+#gradient_front_focus {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    left: 0;
+    top: -20vh;
+
+    background: radial-gradient(50% 50% at 50% 50%, #0B3F50 0%, #051A20 20.83%, #000000 66.67%);
+
+    position: fixed;
+    overflow:hidden;
+}
+
+/* Rectangle 2 */
+#main_black_box_45 {
+
+    transform: rotate(-45deg);
+    background: rgb(0, 0, 0);
+    position: absolute;
+    margin: -15vh 0 0 -15vh;
+    left: 50%;
+    width: 30vh;
+    top: 50%;
+    height: 30vh;
+}
+
+/* Rectangle 2 */
+#main_black_box_0 {
+
+    display: flex;
+
+    contain: content;
+
+
+    background: rgb(0, 0, 0);
+    position: absolute;
+    margin: -15vh 0 0 -15vh;
+    left: 50%;
+    width: 30vh;
+    top: 50%;
+    height: 30vh;
+}
+
+/* Line 1 */
+#A-left {
+    position: absolute;
+    width: 27.06vh;
+    height: 0vh;
+    left: -6vh;
+    top: -0.587vh;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(155.78deg);
+
+    margin: 8.05vh 0 0 8.05vh;
+
+}
+
+/* Line 2 */
+#A-right {
+
+    position: absolute;
+
+    width: 26.955vh;
+    height: 0vh;
+    left: -6vh;
+    top: -0.587vh;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(114.82deg);
+
+   margin: 14.75vh 0 0 14.75vh;
+
+}
+
+#A-horizontal {
+    position: absolute;
+    width: 19.8vh;
+    height: 0vh;
+    left: 10.2vh;
+    top: 17.1vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#A-horizontal_up {
+    position: absolute;
+    width: 28vh;
+    height: 0vh;
+    left: 0vh;
+    top: 15.5vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#A-horizontal_down {
+    position: absolute;
+    width: 28vh;
+    height: 0vh;
+    left: 0vh;
+    top: 25.1vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+/* a-box-sample-2 1 */
+#maiden_1 {
+    position: absolute;
+    background-image: url("https://s3-alpha-sig.figma.com/img/45e3/4168/02ccdb945a745826c9f6cf5a36d98492?Expires=1575244800&Signature=JuDJaIUhjr5FWq~RP8ElQTQ14rsGwRMgjKRkRG27kypNoVoz68HRIrY3sykpPRpKY3wbqNIG4btuBEsAQwgntK0XIH6-jO9l4S0oQANGKgDF-4j1Dk3EaQYwUh08JiOTxep~5v0~~QORBh-6cofphAHjj5BN5ANWB6lrtzoQpaMB2bq8tCz3n9okrkFqXJ2WhCysFcB-LXqHT8RxpAzQ5FQ6Jba2whqMYcnmt6MUudpfLIB~Dqfh0HtFQZpN6k8UsTiDyNKNMRbbCZM9zCgKlxxcPmVlJ84Ms5lnn5H0o6NaO9Kc8iOUvpTL07khJuZn-HTuaKgRAx58IUZ8tkRK4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 140vh;
+    height: 100vh;
+    left: 50%;
+    top: 0;
+
+    position: fixed;
+    overflow:hidden;
+}
+
+/* Впервые */
+#firstly {
+    position: absolute;
+
+    height: 3.4vh;
+
+    left: 50%;
+    top: 13.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4vh;
+    line-height: 2.8vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    -webkit-text-fill-color: #7C7878;
+    text-decoration: none; //убрать подчеркивание ссылки
+}
+
+/* Вновь */
+#again {
+
+    position: absolute;
+    //width: 7.8vw;
+
+    height: 2.1vh;
+
+    left: 55%;
+    top: 17.7vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4vh;
+    line-height: 2.8vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    -webkit-text-fill-color: #7C7878;
+    text-decoration: none; //убрать подчеркивание ссылки
+}
+
+/* Union */
+#union {
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 16%;
+    height: 18%;
+    left: 50%;
+    top: 3.2vh;
+
+    margin: 0 0 0 -9%;
+}
+
+/* Я */
+#I {
+    position: absolute;
+    width: 6.9vw;
+    height: 9.9vh;
+    left: 10%;
+    top: 12.7vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.6vh;
+    line-height: 11.2vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-indent: 0.5vh;
+
+    color: #7C7878;
+
+}
+
+#login{
+    position: absolute;
+    width: 28vw;
+    height: 3.4vh;
+    left: 0%;
+    top: 11.6vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#password{
+    position: absolute;
+    width: 28vw;
+    height: 2.1vh;
+    left: 0%;
+    top: 22.5vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#next{
+    position: absolute;
+    width: 13.3vw;
+    height: 1.9vh;
+    left: 60%;
+    top: 28.1vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-indent: 0.5vh;
+
+    color: #7C7878;
+}
