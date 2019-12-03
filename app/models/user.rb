@@ -1,6 +1,6 @@
 class UserInputValidator < ActiveModel::Validator
   def validate(record)
-    if !(record.email.match(/\A\w+@\w+\.\w+\z/))
+    if !(record.email.match(/\A[\w\.]+@\w+\.\w+\z/))
       record.errors[:base] << "email is incorrect"
     end
   end

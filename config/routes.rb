@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   get '/authorisation', to: 'home#authorisation'
   get '/signin', to: 'home#signin'
 
-  resource  :home
+  #resource  :home
   resources :projects, only: :index
 end
