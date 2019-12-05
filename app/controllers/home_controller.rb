@@ -10,4 +10,9 @@ class HomeController < ApplicationController
   def signin
 
   end
+
+  def project_menu
+
+  end
+
 end

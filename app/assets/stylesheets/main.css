@@ -73,6 +73,17 @@
     height: 30vh;
 }
 
+#main_black_box_gradient{
+    position: absolute;
+    width: 65vh;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 31.25%);
+
+}
+
 /* Line 1 */
 #A-left {
     position: absolute;
@@ -210,6 +221,21 @@
     top: 3.2vh;
 
     margin: 0 0 0 -9%;
+}
+
+#union_center{
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 19.4vh;
+    height: 25.6vh;
+    left: 50%;
+    top: 50%;
+
+    //background: rgba(0, 0, 0, 0.17);
+    margin: 7% 0 0 -5%;
 }
 
 /* Я */
