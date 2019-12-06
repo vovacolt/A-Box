@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get '/authorisation', to: 'home#authorisation'
   get '/signin', to: 'home#signin'
   get '/project_menu', to: 'home#project_menu'
+  get '/project_menu/import_project', to: 'home#import_project'
+  get '/project_menu/import_project/import_setting', to: 'home#import_setting'
+  get '/test', to: 'home#test'
 
   resource  :home
   resources :projects, only: :index

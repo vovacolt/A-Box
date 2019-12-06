@@ -112,7 +112,7 @@
     border: 1px solid #FFFFFF;
     transform: rotate(114.82deg);
 
-   margin: 14.75vh 0 0 14.75vh;
+    margin: 14.75vh 0 0 14.75vh;
 
 }
 
@@ -142,6 +142,58 @@
     height: 0vh;
     left: 0vh;
     top: 25.1vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#A-Project_vertical{
+
+    position: absolute;
+
+    width: 94.4vh;
+    height: 0vh;
+    left: 4.2vh;
+    top: 3.6vh;
+
+    margin: 47.2vh 0 0 -47.2vh;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+
+}
+
+#A-Project_horizontal{
+
+     position: absolute;
+     width: 34.1vh;
+     height: 0vh;
+     left: 6.1vh;
+     top: 4.1vh;
+
+     border: 1px solid #FFFFFF;
+
+ }
+
+#A-Project_horizontal_center{
+
+    position: absolute;
+    width: 45.1vh;
+    height: 0vh;
+    left: 6.1vh;
+    top: 51.2vh;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+#A-Project_vertical_1
+{
+
+    position: absolute;
+    width: 48.55vh;
+    height: 0vh;
+    left: 6.1vh;
+    top: 9.9vh;
 
     border: 1px solid #FFFFFF;
 }
@@ -226,7 +278,7 @@
 #union_center{
     position: absolute;
 
-    background-image: url("Union.svg");
+    background-image: url("A-big.svg");
     background-size: 100% 100%;
 
     width: 19.4vh;
@@ -235,7 +287,7 @@
     top: 50%;
 
     //background: rgba(0, 0, 0, 0.17);
-    margin: 7% 0 0 -5%;
+    margin: -9.9vh 0 0 -12.8vh;
 }
 
 /* Я */
@@ -316,4 +368,193 @@
     text-indent: 0.5vh;
 
     color: #7C7878;
+}
+
+#import_img{
+
+    position: absolute;
+
+    background-image: url("Import.svg");
+    background-size: 100% 100%;
+
+    width: 3.1vh;
+    height: 3.1vh;
+    left: 7.1vh;
+    top: 5.1vh;
+
+}
+
+#new_img{
+
+    position: absolute;
+
+    background-image: url("New.svg");
+    background-size: 100% 100%;
+
+    width: 4vh;
+    height: 3vh;
+    left: 12.068vh;
+    top: 5.1vh;
+
+}
+
+#user_img{
+
+    position: absolute;
+
+    background-image: url("User.svg");
+    background-size: 100% 100%;
+
+    width: 2.4vh;
+    height: 3.12vh;
+    left: 36.5vh;
+    top: 5.1vh;
+}
+
+#import_center{
+
+    position: absolute;
+
+    background-image: url("Import_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+}
+
+#name_proj_t{
+
+    position: absolute;
+    width: 44.3vh;
+    height: 5.3vh;
+    left: 6.2vh;
+    top: 45.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#database_t{
+    position: absolute;
+    width: 49.1vh;
+    height: 5.3vh;
+    left: 6.1vh;
+    top: 51.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5px;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#next_big_t{
+    position: absolute;
+    width: 49.2vh;
+    height: 5.3vh;
+    left: 50%;
+    top: 70.2vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-indent: 0.5vh;
+
+    margin: 0 0 0 -14vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#back{
+
+    position: absolute;
+
+    background-image: url("Back.svg");
+    background-size: 100% 100%;
+
+    width: 3vh;
+    height: 3vh;
+    left: 95%;
+    top: 4.2vh;
+}
+
+#test{
+    width: 100%;
+    height: 100%;
+}
+
+#import_center_45{
+    position: absolute;
+
+    background-image: url("Import_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+
+    transform: rotate(45deg);
+}
+
+#name_t{
+    position: absolute;
+    width: 45.4vh;
+    height: 5.1vh;
+    left: 6.2vh;
+    top: 3.6vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#import_t{
+    position: absolute;
+    width: 49.1vh;
+    height: 6vh;
+    left: 6.1vh;
+    top: 9.9vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
 }

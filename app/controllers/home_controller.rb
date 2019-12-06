@@ -15,4 +15,16 @@ class HomeController < ApplicationController
 
   end
 
+  def import_project
+
+  end
+
+  def import_setting
+
+  end
+
+  def test
+
+  end
+
 end
