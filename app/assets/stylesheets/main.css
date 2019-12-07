@@ -411,21 +411,6 @@
     top: 5.1vh;
 }
 
-#import_center{
-
-    position: absolute;
-
-    background-image: url("Import_Big.svg");
-    background-size: 100% 100%;
-
-    width: 30.872vh;
-    height: 30.872vh;
-    left: 50%;
-    top: 50%;
-
-    margin: -15.436vh 0 0 -15.436vh;
-}
-
 #name_proj_t{
 
     position: absolute;
@@ -505,6 +490,21 @@
     height: 100%;
 }
 
+#import_center{
+
+    position: absolute;
+
+    background-image: url("Import_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+}
+
 #import_center_45{
     position: absolute;
 
@@ -519,6 +519,37 @@
     margin: -15.436vh 0 0 -15.436vh;
 
     transform: rotate(45deg);
+}
+
+#add_center{
+
+    position: absolute;
+
+    background-image: url("New_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+}
+
+#add_center_45{
+    position: absolute;
+
+    background-image: url("New_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+
+    transform: rotate(180deg);
 }
 
 #name_t{
@@ -558,3 +589,305 @@
 
     color: rgba(124, 120, 120, 0.45);
 }
+
+#set{
+    position: absolute;
+    width: 28vh;
+    height: 4.8vh;
+    left: 1.6vh;
+    top: 4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#full_name{
+    position: absolute;
+    width: 28vh;
+    height: 3.4vh;
+    left: 0vh;
+    top: 13.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#A-Project_horizontal_center_left{
+
+    position: absolute;
+    width: 28.001vh;
+    height: 0vh;
+    left: 0vh;
+    top: 17.2vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#union_right{
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 16%;
+    height: 18%;
+    left: 80%;
+    top: 3.2vh;
+
+    margin: 0 0 0 -9%;
+}
+
+#come_up_with{
+    position: absolute;
+    width: 21.7vh;
+    height: 3.4vh;
+    left: 9vh;
+    top: 5.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#nickname{
+    position: absolute;
+    width: 28vh;
+    height: 2.1vh;
+    left: 2vh;
+    top: 14.9vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+
+}
+
+#union_left{
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 16%;
+    height: 18%;
+    left: 20%;
+    top: 3.2vh;
+
+    margin: 0 0 0 -9%;
+}
+
+#A-Project_horizontal_center_right{
+    position: absolute;
+    width: 28.001vh;
+    height: 0vh;
+    left: 2vh;
+    top: 17.4vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#photo{
+    position: absolute;
+    width: 15vh;
+    height: 15vh;
+    left: 6.1vh;
+    top: 3.6vh;
+
+    background: #C4C4C4;
+}
+
+#user_name_first{
+
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 24.7vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#user_name_second{
+
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 28.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#nick{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 42.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#email{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 46.1vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#speciality{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 60.1vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+}
+
+#theme{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 63.8vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#manage_profile{
+    position: absolute;
+    width: 50.9vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 77.8vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#change_password{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 81.5vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#delete_profile{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 84.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+

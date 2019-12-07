@@ -11,6 +11,10 @@ class HomeController < ApplicationController
 
   end
 
+  def signup
+
+  end
+
   def project_menu
 
   end
@@ -20,6 +24,26 @@ class HomeController < ApplicationController
   end
 
   def import_setting
+
+  end
+
+  def add_project
+
+  end
+
+  def add_setting
+
+  end
+
+  def profile
+
+  end
+
+  def enter_password
+
+  end
+
+  def set_new_password
 
   end
 
