@@ -31,3 +31,8 @@
 
 <!-- Next -->
 <div class="left top text" id="next_big_t">Продолжить</div>
+
+<script>
+    let next = document.getElementById('next_big_t');
+    next.addEventListener("click", function(){ window.location = '<%= project_menu_import_project_import_setting_path %>' }, false);
+</script>

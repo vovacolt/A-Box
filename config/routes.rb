@@ -28,5 +28,4 @@ Rails.application.routes.draw do
 
   get '/test', to: 'home#test'
 
-  resource  :home
 end

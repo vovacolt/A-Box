@@ -28,3 +28,14 @@
 
 <!-- Union -->
 <div class="left top rectangle" id="union_center"></div>
+
+<script>
+    let import_e = document.getElementById('import_img');
+    import_e .addEventListener("click", function(){ window.location = '<%= project_menu_import_project_path %>' }, false);
+
+    let new_e = document.getElementById('new_img');
+    new_e.addEventListener("click", function(){ window.location = '<%= project_menu_add_project_path %>' }, false);
+
+    let user_e = document.getElementById('user_img');
+    user_e.addEventListener("click", function(){ window.location = '<%= profile_path %>' }, false);
+</script>

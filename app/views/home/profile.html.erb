@@ -4,6 +4,9 @@
   <!-- Rectangle 3 -->
   <div class="left top rectangle" id="gradient_front"></div>
 
+  <!-- Back -->
+  <div class="left top rectangle" id="back"></div>
+
   <!-- a-box-sample-2 1 -->
   <div class="left top rectangle" id="maiden_1"></div>
 
@@ -31,3 +34,11 @@
 
 <!-- Union -->
 <div class="left top rectangle" id="union_center"></div>
+
+<script>
+    let delete_prof = document.getElementById('delete_profile');
+    delete_prof.addEventListener("click", function(){ window.location = '<%= enter_password_path %>' }, false);
+
+    let change_pass = document.getElementById('change_password');
+    change_pass.addEventListener("click", function(){ window.location = '<%= enter_password_path %>' }, false);
+</script>
