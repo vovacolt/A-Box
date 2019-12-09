@@ -16,8 +16,13 @@
   <!-- Пароль -->
   <div class="left top text" id="password">Пароль</div>
   <!-- Пароль -->
-  <div class="left top text" id="next">Продолжить</div>
-
+  <!--<a href="signup/set_name" class="left top text" id="next">Продолжить</a>
+  -->
+  <form accept-charset="UTF-8" action="/signup" data-remote="true" method="post">
+    <input name="em" type="text"/>
+    <input name="pas" type="text"/>
+    <button class="left top text" id="next">Далее</button>
+  </form>
   <!-- Union -->
   <div class="left top rectangle" id="union"></div>
 

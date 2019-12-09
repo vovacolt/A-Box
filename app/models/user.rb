@@ -6,8 +6,12 @@ class UserInputValidator < ActiveModel::Validator
   end
 end
 class User < ApplicationRecord
-  validates :first_name, :nickname, :email, :password, presence: true
-  #validates_with UserInputValidator
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  #devise :database_authenticatable, :registerable,
+   #      :recoverable, :rememberable, :validatable
+  validates :first_name, :nickname, :email, :encrypted_password, presence: true
+  validates_with UserInputValidator
   before_validation :nickname_exists
 
   def nickname_exists
