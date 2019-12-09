@@ -29,6 +29,7 @@ Rails.application.routes.draw do
 
   get '/set_new_password', to: 'home#set_new_password'
 
-  get '/test', to: 'home#test'
+  get '/project', to: 'home#project'
+  get 'home/default', to: 'home#default_scene'
 
 end

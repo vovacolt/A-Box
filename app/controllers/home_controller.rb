@@ -47,8 +47,12 @@ class HomeController < ApplicationController
 
   end
 
-  def test
+  def project
 
+  end
+
+  def default_scene
+    render :default_scene, layout: nil
   end
 
 end

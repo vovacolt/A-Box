@@ -1,0 +1,39 @@
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.6/ace.js"></script>
+
+<div class=wrapper"">
+
+  <div class="row">
+
+    <div class="column">
+
+      <div id="editor">
+
+      </div>
+
+    </div>
+
+    <div id="column_scene-wrapper">
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+    let editor = ace.edit("editor");
+    let scene = document.getElementById('column_scene-wrapper');
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/html");
+    let xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+            editor.setValue(xmlHttp.responseText);
+    };
+    xmlHttp.open("GET", '/home/default', true);
+    xmlHttp.send(null);
+    editor.session.on('change', function (delta) {
+        scene.innerHTML = editor.getValue();
+    });
+</script>
