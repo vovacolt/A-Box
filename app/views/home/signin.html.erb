@@ -19,8 +19,13 @@
   <!-- Пароль -->
   <div class="left top text" id="password">Пароль</div>
   <!-- Пароль -->
-  <div class="left top text" id="next">Продолжить</div>
-
+  <!--<a href="/project_menu" class="left top text" id="next">Продолжить</a>
+  -->
+  <form accept-charset="UTF-8" action="/signin" data-remote="true" method="post">
+    <input name="em_log" type="text"/>
+    <input name="pas_log" type="text"/>
+    <button class="left top text" id="next">Далее</button>
+  </form>
   <!-- Union -->
   <div class="left top rectangle" id="union"></div>
 

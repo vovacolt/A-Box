@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  #devise_for :users
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
@@ -6,8 +7,10 @@ Rails.application.routes.draw do
   get '/authorisation', to: 'home#authorisation'
 
   get '/signin', to: 'home#signin'
-  post '/authorisation', to: 'users#create'
-
+  post '/signup', to: 'users#set_email_password'
+  post '/signup/set_name', to: 'users#set_first_second_name'
+  post '/signup/set_nickname', to: 'users#create'
+  post '/signin', to: 'users#login'
   get '/signup', to: 'home#signup'
   get '/signup/set_name', to: 'home#set_name'
   get '/signup/set_nickname', to: 'home#set_nickname'
