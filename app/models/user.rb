@@ -10,6 +10,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   #devise :database_authenticatable, :registerable,
    #      :recoverable, :rememberable, :validatable
+  devise :database_authenticatable
   validates :first_name, :nickname, :email, :encrypted_password, presence: true
   validates_with UserInputValidator
   before_validation :nickname_exists

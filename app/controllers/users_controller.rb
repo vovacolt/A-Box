@@ -3,36 +3,37 @@ class UsersController < ApplicationController
     #
   end
   def create
-    $nick = params[:nick]
-    @user = User.new({:first_name => $fname,
-                      :second_name => $sname,
-                      :nickname => $nick,
-                      :email => $email_p,
-                      :encrypted_password => $password_p})
+    session[:nick]=params[:nick]
+    @user = User.new({:first_name => session[:fname],
+                      :second_name => session[:sname],
+                      :nickname => session[:nick],
+                      :email => session[:email_p],
+                      :encrypted_password => session[:password_p]})
     @user.save
-    if @user.save
+    if @user.valid?
+      session[:cur_user] = @user.id
       redirect_to "/project_menu"
     else
       redirect_to "/authorisation"
     end
   end
   def login
-    #$cur_user = User.first(:conditions => ["email = ? AND encrypted_password = ?", params[:em_log], params[:pas_log]])
-    $cur_user = User.first(:conditions => { :email => params[:em_log], :encrypted_password => params[:pas_log]})
-    if $cur_user
+    u = User.find_by_email(params[:em_log])
+    if u.present? && u.password == params[:pas_log]
+      session[:cur_user] = u.id
       redirect_to "/project_menu"
     else
-      redirect_to "/authorisation"
+      redirect_to "/signin"
     end
   end
   def set_email_password
-    $email_p = params[:em]
-    $password_p = params[:pas]
+    session[:email_p]=params[:em]
+    session[:password_p]=params[:pas]
     redirect_to "/signup/set_name"
   end
   def set_first_second_name
-    $fname = params[:fname]
-    $sname = params[:sname]
+    session[:fname]=params[:fname]
+    session[:sname]=params[:sname]
     redirect_to "/signup/set_nickname"
   end
 end
