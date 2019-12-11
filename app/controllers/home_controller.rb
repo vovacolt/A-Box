@@ -55,4 +55,9 @@ class HomeController < ApplicationController
     render :default_scene, layout: nil
   end
 
+  def test
+
+  end
+
 end
+

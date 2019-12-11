@@ -32,4 +32,6 @@ Rails.application.routes.draw do
   get '/project', to: 'home#project'
   get 'home/default', to: 'home#default_scene'
 
+  get '/test', to: 'home#test'
+
 end

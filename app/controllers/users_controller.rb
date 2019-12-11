@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   end
   def login
     u = User.find_by_email(params[:em_log])
-    if u.present? && u.password == params[:pas_log]
+    if u.present? && u.encrypted_password == params[:pas_log]
       session[:cur_user] = u.id
       redirect_to "/project_menu"
     else
