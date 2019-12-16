@@ -3,12 +3,13 @@ class UsersController < ApplicationController
     #
   end
   def create
+
     session[:nick]=params[:nick]
     @user = User.new({:first_name => session[:fname],
                       :second_name => session[:sname],
                       :nickname => session[:nick],
                       :email => session[:email_p],
-                      :encrypted_password => session[:password_p]})
+                      :password => session[:password_p]})
     @user.save
     if @user.valid?
       session[:cur_user] = @user.id
@@ -19,7 +20,7 @@ class UsersController < ApplicationController
   end
   def login
     u = User.find_by_email(params[:em_log])
-    if u.present? && u.encrypted_password == params[:pas_log]
+    if u.present? && u.valid_password?(params[:pas_log])
       session[:cur_user] = u.id
       redirect_to "/project_menu"
     else
@@ -29,7 +30,11 @@ class UsersController < ApplicationController
   def set_email_password
     session[:email_p]=params[:em]
     session[:password_p]=params[:pas]
-    redirect_to "/signup/set_name"
+    if User.find_by_email(session[:email_p]).present?
+      redirect_to "/signup"
+    else
+      redirect_to "/signup/set_name"
+    end
   end
   def set_first_second_name
     session[:fname]=params[:fname]
