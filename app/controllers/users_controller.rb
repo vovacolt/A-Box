@@ -9,7 +9,6 @@ class UsersController < ApplicationController
                       :nickname => $nick,
                       :email => $email_p,
                       :encrypted_password => $password_p})
-    @user.save
     if @user.save
       redirect_to "/project_menu"
     else
