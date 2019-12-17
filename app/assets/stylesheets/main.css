@@ -1,0 +1,928 @@
+<!-- ———————      CSS      ——————— -->
+
+     /* Desktop - 1 */
+ #frame {
+     position: relative;
+     width: 100vh;
+     height: 100vh;
+
+     position: fixed;
+     overflow:hidden;
+
+     margin: 0;
+
+     background: #000000;
+ }
+
+
+/* Rectangle 3 */
+#gradient_front {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    left: 0;
+    top: -20vh;
+
+    background: radial-gradient(50% 50% at 50% 50%, #0D6885 0%, #064559 30.21%, #000000 100%);
+
+    position: fixed;
+    overflow:hidden;
+}
+
+/* Rectangle 3 */
+#gradient_front_focus {
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    left: 0;
+    top: -20vh;
+
+    background: radial-gradient(50% 50% at 50% 50%, #0B3F50 0%, #051A20 20.83%, #000000 66.67%);
+
+    position: fixed;
+    overflow:hidden;
+}
+
+/* Rectangle 2 */
+#main_black_box_45 {
+
+    transform: rotate(-45deg);
+    background: rgb(0, 0, 0);
+    position: absolute;
+    margin: -15vh 0 0 -15vh;
+    left: 50%;
+    width: 30vh;
+    top: 50%;
+    height: 30vh;
+}
+
+/* Rectangle 2 */
+#main_black_box_0 {
+
+    display: flex;
+
+    contain: content;
+
+
+    background: rgb(0, 0, 0);
+    position: absolute;
+    margin: -15vh 0 0 -15vh;
+    left: 50%;
+    width: 30vh;
+    top: 50%;
+    height: 30vh;
+}
+
+#main_black_box_gradient{
+    position: absolute;
+    width: 65vh;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 31.25%);
+
+}
+
+/* Line 1 */
+#A-left {
+    position: absolute;
+    width: 27.06vh;
+    height: 0vh;
+    left: -6vh;
+    top: -0.587vh;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(155.78deg);
+
+    margin: 8.05vh 0 0 8.05vh;
+
+}
+
+/* Line 2 */
+#A-right {
+
+    position: absolute;
+
+    width: 26.955vh;
+    height: 0vh;
+    left: -6vh;
+    top: -0.587vh;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(114.82deg);
+
+    margin: 14.75vh 0 0 14.75vh;
+
+}
+
+#A-horizontal {
+    position: absolute;
+    width: 19.8vh;
+    height: 0vh;
+    left: 10.2vh;
+    top: 17.1vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#A-horizontal_up {
+    position: absolute;
+    width: 28vh;
+    height: 0vh;
+    left: 0vh;
+    top: 15.5vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#A-horizontal_down {
+    position: absolute;
+    width: 28vh;
+    height: 0vh;
+    left: 0vh;
+    top: 25.1vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#A-Project_vertical{
+
+    position: absolute;
+
+    width: 94.4vh;
+    height: 0vh;
+    left: 4.2vh;
+    top: 3.6vh;
+
+    margin: 47.2vh 0 0 -47.2vh;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+
+}
+
+#A-Project_horizontal{
+
+     position: absolute;
+     width: 34.1vh;
+     height: 0vh;
+     left: 6.1vh;
+     top: 4.1vh;
+
+     border: 1px solid #FFFFFF;
+
+ }
+
+#A-Project_horizontal_center{
+
+    position: absolute;
+    width: 45.1vh;
+    height: 0vh;
+    left: 6.1vh;
+    top: 51.2vh;
+
+    border: 1px solid #FFFFFF;
+
+}
+
+#A-Project_vertical_1
+{
+
+    position: absolute;
+    width: 48.55vh;
+    height: 0vh;
+    left: 6.1vh;
+    top: 9.9vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+/* a-box-sample-2 1 */
+#maiden_1 {
+    position: absolute;
+    background-image: url("https://s3-alpha-sig.figma.com/img/45e3/4168/02ccdb945a745826c9f6cf5a36d98492?Expires=1575244800&Signature=JuDJaIUhjr5FWq~RP8ElQTQ14rsGwRMgjKRkRG27kypNoVoz68HRIrY3sykpPRpKY3wbqNIG4btuBEsAQwgntK0XIH6-jO9l4S0oQANGKgDF-4j1Dk3EaQYwUh08JiOTxep~5v0~~QORBh-6cofphAHjj5BN5ANWB6lrtzoQpaMB2bq8tCz3n9okrkFqXJ2WhCysFcB-LXqHT8RxpAzQ5FQ6Jba2whqMYcnmt6MUudpfLIB~Dqfh0HtFQZpN6k8UsTiDyNKNMRbbCZM9zCgKlxxcPmVlJ84Ms5lnn5H0o6NaO9Kc8iOUvpTL07khJuZn-HTuaKgRAx58IUZ8tkRK4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 140vh;
+    height: 100vh;
+    left: 50%;
+    top: 0;
+
+    position: fixed;
+    overflow:hidden;
+}
+
+/* Впервые */
+#firstly {
+    position: absolute;
+
+    height: 3.4vh;
+
+    left: 50%;
+    top: 13.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4vh;
+    line-height: 2.8vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    -webkit-text-fill-color: #7C7878;
+    text-decoration: none; //убрать подчеркивание ссылки
+}
+
+/* Вновь */
+#again {
+
+    position: absolute;
+    //width: 7.8vw;
+
+    height: 2.1vh;
+
+    left: 55%;
+    top: 17.7vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4vh;
+    line-height: 2.8vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    -webkit-text-fill-color: #7C7878;
+    text-decoration: none; //убрать подчеркивание ссылки
+}
+
+/* Union */
+#union {
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 16%;
+    height: 18%;
+    left: 50%;
+    top: 3.2vh;
+
+    margin: 0 0 0 -9%;
+}
+
+#union_center{
+    position: absolute;
+
+    background-image: url("A-big.svg");
+    background-size: 100% 100%;
+
+    width: 19.4vh;
+    height: 25.6vh;
+    left: 50%;
+    top: 50%;
+
+    //background: rgba(0, 0, 0, 0.17);
+    margin: -9.9vh 0 0 -12.8vh;
+}
+
+/* Я */
+#I {
+    position: absolute;
+    width: 6.9vw;
+    height: 9.9vh;
+    left: 10%;
+    top: 12.7vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.6vh;
+    line-height: 11.2vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-indent: 0.5vh;
+
+    color: #7C7878;
+
+}
+
+#login{
+    position: absolute;
+    width: 28vw;
+    height: 3.4vh;
+    left: 0%;
+    top: 11.6vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#password{
+    position: absolute;
+    width: 28vw;
+    height: 2.1vh;
+    left: 0%;
+    top: 22.5vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#next{
+    position: absolute;
+    width: 13.3vw;
+    height: 1.9vh;
+    left: 60%;
+    top: 28.1vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-indent: 0.5vh;
+
+    color: #7C7878;
+}
+
+#import_img{
+
+    position: absolute;
+
+    background-image: url("Import.svg");
+    background-size: 100% 100%;
+
+    width: 3.1vh;
+    height: 3.1vh;
+    left: 7.1vh;
+    top: 5.1vh;
+
+}
+
+#new_img{
+
+    position: absolute;
+
+    background-image: url("New.svg");
+    background-size: 100% 100%;
+
+    width: 4vh;
+    height: 3vh;
+    left: 12.068vh;
+    top: 5.1vh;
+
+}
+
+#user_img{
+
+    position: absolute;
+
+    background-image: url("User.svg");
+    background-size: 100% 100%;
+
+    width: 2.4vh;
+    height: 3.12vh;
+    left: 36.5vh;
+    top: 5.1vh;
+}
+
+#name_proj_t{
+
+    position: absolute;
+    width: 44.3vh;
+    height: 5.3vh;
+    left: 6.2vh;
+    top: 45.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#database_t{
+    position: absolute;
+    width: 49.1vh;
+    height: 5.3vh;
+    left: 6.1vh;
+    top: 51.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5px;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#next_big_t{
+    position: absolute;
+    width: 49.2vh;
+    height: 5.3vh;
+    left: 50%;
+    top: 70.2vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-indent: 0.5vh;
+
+    margin: 0 0 0 -14vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#back{
+
+    position: absolute;
+
+    background-image: url("Back.svg");
+    background-size: 100% 100%;
+
+    width: 3vh;
+    height: 3vh;
+    left: 95%;
+    top: 4.2vh;
+}
+
+#test{
+    width: 100%;
+    height: 100%;
+}
+
+#import_center{
+
+    position: absolute;
+
+    background-image: url("Import_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+}
+
+#import_center_45{
+    position: absolute;
+
+    background-image: url("Import_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+
+    transform: rotate(45deg);
+}
+
+#add_center{
+
+    position: absolute;
+
+    background-image: url("New_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+}
+
+#add_center_45{
+    position: absolute;
+
+    background-image: url("New_Big.svg");
+    background-size: 100% 100%;
+
+    width: 30.872vh;
+    height: 30.872vh;
+    left: 50%;
+    top: 50%;
+
+    margin: -15.436vh 0 0 -15.436vh;
+
+    transform: rotate(180deg);
+}
+
+#name_t{
+    position: absolute;
+    width: 45.4vh;
+    height: 5.1vh;
+    left: 6.2vh;
+    top: 3.6vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#import_t{
+    position: absolute;
+    width: 49.1vh;
+    height: 6vh;
+    left: 6.1vh;
+    top: 9.9vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8vh;
+    line-height: 5.6vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#set{
+    position: absolute;
+    width: 28vh;
+    height: 4.8vh;
+    left: 1.6vh;
+    top: 4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#full_name{
+    position: absolute;
+    width: 28vh;
+    height: 3.4vh;
+    left: 0vh;
+    top: 13.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#A-Project_horizontal_center_left{
+
+    position: absolute;
+    width: 28.001vh;
+    height: 0vh;
+    left: 0vh;
+    top: 17.2vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#union_right{
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 16%;
+    height: 18%;
+    left: 80%;
+    top: 3.2vh;
+
+    margin: 0 0 0 -9%;
+}
+
+#come_up_with{
+    position: absolute;
+    width: 21.7vh;
+    height: 3.4vh;
+    left: 9vh;
+    top: 5.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+}
+
+#nickname{
+    position: absolute;
+    width: 28vh;
+    height: 2.1vh;
+    left: 2vh;
+    top: 14.9vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 0.5vh;
+
+    color: rgba(124, 120, 120, 0.45);
+
+}
+
+#union_left{
+    position: absolute;
+
+    background-image: url("Union.svg");
+    background-size: 100% 100%;
+
+    width: 16%;
+    height: 18%;
+    left: 20%;
+    top: 3.2vh;
+
+    margin: 0 0 0 -9%;
+}
+
+#A-Project_horizontal_center_right{
+    position: absolute;
+    width: 28.001vh;
+    height: 0vh;
+    left: 2vh;
+    top: 17.4vh;
+
+    border: 1px solid #FFFFFF;
+}
+
+#photo{
+    position: absolute;
+    width: 15vh;
+    height: 15vh;
+    left: 6.1vh;
+    top: 3.6vh;
+
+    background: #C4C4C4;
+}
+
+#user_name_first{
+
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 24.7vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#user_name_second{
+
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 28.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#nick{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 42.4vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#email{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 46.1vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#speciality{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 60.1vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+}
+
+#theme{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 63.8vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#manage_profile{
+    position: absolute;
+    width: 50.9vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 77.8vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#change_password{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 81.5vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+#delete_profile{
+    position: absolute;
+    width: 34.1vh;
+    height: 3.7vh;
+    left: 6.1vh;
+    top: 84.3vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vh;
+    line-height: 4.2vh;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+
+
+.wrapper {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+#editor {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.input_test{
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0);
+}
+

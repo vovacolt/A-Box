@@ -1,0 +1,44 @@
+<link rel="stylesheet" media="all" href="/assets/main.css" data-turbolinks-track="reload">
+<!-- Desktop - 1 -->
+<div class="frame" id="frame">
+  <!-- Rectangle 3 -->
+  <div class="left top rectangle" id="gradient_front"></div>
+
+  <!-- Back -->
+  <div class="left top rectangle" id="back"></div>
+
+  <!-- a-box-sample-2 1 -->
+  <div class="left top rectangle" id="maiden_1"></div>
+
+</div>
+
+<div class="left top rectangle" id="photo"></div>
+
+<div class="left top text", id="user_name_first">Корбен</div>
+
+<div class="left top text", id="user_name_second">Даллас</div>
+
+<div class="left top text", id="nick">Псевдоном</div>
+
+<div class="left top text", id="email">Email</div>
+
+<div class="left top text", id="speciality">Специальность</div>
+
+<div class="left top text", id="theme">Тема</div>
+
+<div class="left top text", id="manage_profile">Управление уч. записью</div>
+
+<div class="left top text", id="change_password">Сменить пароль</div>
+
+<div class="left top text", id="delete_profile">Удалить уч. запись</div>
+
+<!-- Union -->
+<div class="left top rectangle" id="union_center"></div>
+
+<script>
+    let delete_prof = document.getElementById('delete_profile');
+    delete_prof.addEventListener("click", function(){ window.location = '<%= enter_password_path %>' }, false);
+
+    let change_pass = document.getElementById('change_password');
+    change_pass.addEventListener("click", function(){ window.location = '<%= enter_password_path %>' }, false);
+</script>
