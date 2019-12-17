@@ -19,6 +19,8 @@
 <script>
     let element = document.getElementById('main_black_box_45');
     element.addEventListener("click", function(){ window.location = '<%= authorisation_path %>' }, false);
+    element.addEventListener("mouseenter", function(){ document.body.style.cursor = "pointer" },false);
+    element.addEventListener("mouseleave", function(){ document.body.style.cursor = "default" },false);
     /* ---------------ПОСТ РЕКВЕСТ------------------  http://zetcode.com/javascript/axios/
     const axios = require('axios');
 
