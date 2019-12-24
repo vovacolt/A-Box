@@ -4,6 +4,6 @@ class ProjectsController < ApplicationController
   end
 
   def project_menu
-    @projects = Project.All
+    @projects = Project.all
   end
 end
