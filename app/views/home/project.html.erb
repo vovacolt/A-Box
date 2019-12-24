@@ -1,7 +1,15 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.6/ace.js"></script>
 <%= javascript_pack_tag 'graph' %>
-<div class=wrapper"">
+
+
+<link rel="stylesheet" href="css/diagram-js.css" />
+
+<link rel="stylesheet" href="vendor/bpmn-font/css/bpmn-embedded.css" />
+
+<link rel="stylesheet" href="css/app.css" />
+
+<div class="wrapper">
 
   <div class="row">
 
@@ -24,8 +32,11 @@
     <div class="column">
       <div id="geEditor">
 
+
+
       </div>
 
+      <div class="properties-panel-parent" id="js-properties-panel"></div>
 
     </div>
 

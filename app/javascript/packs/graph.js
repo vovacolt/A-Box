@@ -1,6 +1,10 @@
 require('bpmn-js');
 import Modeler from 'bpmn-js/lib/Modeler'
 
+import propertiesPanelModule from 'bpmn-js-properties-panel';
+
+import propertiesProviderModule from 'bpmn-js-properties-panel/lib/provider/camunda';
+
 function openDiagram(bpmnXML, modeler) {
     // import diagram
     modeler.importXML(bpmnXML, function(err) {
@@ -28,9 +32,21 @@ function openDiagram(bpmnXML, modeler) {
 document.addEventListener("DOMContentLoaded", function() {
     const modeler = new Modeler({
         container: '#geEditor',
+        propertiesPanel: {
+
+            parent: '#js-properties-panel'
+
+        },
         keyboard: {
             bindTo: window
-        }
+        },
+        additionalModules: [
+
+            propertiesPanelModule,
+
+            propertiesProviderModule
+
+        ]
     });
     const diagramUrl = 'https://cdn.staticaly.com/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
     var x = new XMLHttpRequest();
