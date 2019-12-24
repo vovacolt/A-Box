@@ -16,11 +16,11 @@
 
 <div class="left top text", id="user_name_first"><%= User.find(session[:cur_user]).first_name %></div>
 
-<div class="left top text", id="user_name_second">User.find(session[:cur_user]).second_name</div>
+<div class="left top text", id="user_name_second"><%=User.find(session[:cur_user]).second_name%></div>
 
-<div class="left top text", id="nick">User.find(session[:cur_user]).nickname</div>
+<div class="left top text", id="nick"><%=User.find(session[:cur_user]).nickname%></div>
 
-<div class="left top text", id="email">User.find(session[:cur_user]).email</div>
+<div class="left top text", id="email"><%=User.find(session[:cur_user]).email%></div>
 
 <div class="left top text", id="speciality">Специальность</div>
 
