@@ -1,5 +1,6 @@
 require('bpmn-js');
-import Modeler from 'bpmn-js/lib/Modeler'
+
+import Modeler from 'bpmn-js/dist/bpmn-modeler.production.min'
 
 import propertiesPanelModule from 'bpmn-js-properties-panel';
 
@@ -41,11 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
             bindTo: window
         },
         additionalModules: [
-
-            propertiesPanelModule,
-
-            propertiesProviderModule
-
         ]
     });
     const diagramUrl = 'https://cdn.staticaly.com/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
