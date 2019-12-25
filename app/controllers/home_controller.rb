@@ -16,7 +16,7 @@ class HomeController < ApplicationController
   end
 
   def project_menu
-
+    @projects = Project.all
   end
 
   def import_project

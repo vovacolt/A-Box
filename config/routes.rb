@@ -15,12 +15,14 @@ Rails.application.routes.draw do
   get '/signup/set_name', to: 'home#set_name'
   get '/signup/set_nickname', to: 'home#set_nickname'
 
-  get '/project_menu', to: 'projects#project_menu'
+  get '/project_menu', to: 'home#project_menu'
+
 
   get '/project_menu/import_project', to: 'home#import_project'
   get '/project_menu/import_project/import_setting', to: 'home#import_setting'
 
   get '/project_menu/add_project', to: 'home#add_project'
+  post '/project_menu/add_project', to: 'projects#add'
   get '/project_menu/add_project/add_setting', to: 'home#add_setting'
 
   get '/profile', to: 'home#profile'
