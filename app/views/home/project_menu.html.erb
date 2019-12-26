@@ -20,6 +20,15 @@
   <!-- User -->
   <div class="left top rectangle" id="user_img"></div>
 
+  <table>
+    <% @projects.each do |x| %>
+    <tr>
+      <td><%= x.proj_name %></td>
+      <td><a><%= link_to nil, x.proj_url %></a></td>
+    </tr>
+    <% end %>
+  </table>
+
   <!-- Line 1 -->
   <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8f90/603a/f70458d2dc78e3d681da1e2d1e46b5a8" class="left top line" id="A-Project_vertical">
   <!-- Line 2 -->

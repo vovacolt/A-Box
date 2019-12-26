@@ -13,7 +13,11 @@
 </div>
 <!-- Rectangle 2 -->
 <div class="left top rectangle" id="main_black_box_gradient">
-
+  <form accept-charset="UTF-8" action="/project_menu/add_project" data-remote="true" method="post">
+    <input name="pr_name" type="text"/>
+    <input name="pr_url" type="text"/>
+    <button class="left top text" id="next">Добавить</button>
+  </form>
   <!-- Название проекта -->
   <div class="left top text" id="name_proj_t">Название проекта</div>
 
@@ -35,4 +39,8 @@
 <script>
     let next = document.getElementById('next_big_t');
     next.addEventListener("click", function(){ window.location = '<%= project_menu_add_project_add_setting_path %>' }, false);
+    let element1 = document.getElementById('back');
+    element1.addEventListener("click", function(){ window.location = '<%= project_menu_path %>'}, false);
+    element1.addEventListener("mouseenter", function(){ document.body.style.cursor = "pointer" },false);
+    element1.addEventListener("mouseleave", function(){ document.body.style.cursor = "default" },false);
 </script>
