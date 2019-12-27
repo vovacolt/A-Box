@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         additionalModules: [
         ]
     });
+
     const diagramUrl = 'https://cdn.staticaly.com/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
     var x = new XMLHttpRequest();
     x.open("GET", diagramUrl, true);
@@ -54,6 +55,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
     x.send(null);
-
-
 });

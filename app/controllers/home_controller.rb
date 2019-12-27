@@ -16,7 +16,15 @@ class HomeController < ApplicationController
   end
 
   def project_menu
-    @projects = Project.all
+    #@projects = UserProject.where(session[:cur_user] = :user_id)
+    #@projects = Project.where(session[:cur_user] = :user_id)
+
+    us = session[:cur_user]
+    cuser = User.find_by_id(us)
+    @projects = cuser.projects
+    #up =  UserProject.where(users_id: us).pluck(:projects_id)
+    #@projects = Project.where(up.include?(:id))
+    #@projects = Project.all
   end
 
   def import_project

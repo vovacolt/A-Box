@@ -4,11 +4,12 @@
   <!-- Rectangle 3 -->
   <div class="left top rectangle" id="gradient_front"></div>
 
-  <!-- Back -->
-  <div class="left top rectangle" id="back"></div>
-
   <!-- a-box-sample-2 1 -->
   <div class="left top rectangle" id="maiden_1"></div>
+  <!-- Back -->
+  <a href='/' class="left top rectangle" id="back"></a>
+
+
 
 </div>
 <!-- Rectangle 2 -->
@@ -28,8 +29,11 @@
   <img     src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4eed/a2ab/d83451cf3445459d7f387e7be52fde7f" width="93" height="253" class="left top line" id="A-horizontal">
 </div>
 <script>
-    let element1 = document.getElementById('back');
-    element1.addEventListener("click", function(){ window.location = '<%= root_path %>'}, false);
-    element1.addEventListener("mouseenter", function(){ document.body.style.cursor = "pointer" },false);
-    element1.addEventListener("mouseleave", function(){ document.body.style.cursor = "default" },false);
+    document.addEventListener("DOMContentLoaded", function() {
+        let element1 = document.getElementById('back');
+        element1.addEventListener("click", function(){ window.location = '<%= root_path %>'}, false);
+        element1.addEventListener("mouseenter", function(){ document.body.style.cursor = "pointer" },false);
+        element1.addEventListener("mouseleave", function(){ document.body.style.cursor = "default" },false);
+    });
+
 </script>

@@ -10,6 +10,8 @@ class ProjectsController < ApplicationController
     else
       proj = Project.new({:proj_name => pr_name, :proj_url => pr_url})
       proj.save
+      up = UserProject.new({:user_id => session[:cur_user],:project_id => proj.id})
+      up.save!
       redirect_to '/project_menu'
     end
   end
